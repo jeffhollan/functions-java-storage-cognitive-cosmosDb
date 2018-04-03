@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "name": "Attach to Java Functions",
       "type": "java",
@@ -8,6 +9,13 @@
       "hostName": "localhost",
       "port": 5005,
       "preLaunchTask": "runFunctionsHost"
+    },
+    {
+      "type": "java",
+      "name": "Attach to Remote Function",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 8898
     }
   ]
 }
