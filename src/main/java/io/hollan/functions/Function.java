@@ -1,8 +1,5 @@
 package io.hollan.functions;
 
-import java.util.*;
-
-import com.google.gson.JsonObject;
 import com.microsoft.azure.serverless.functions.annotation.*;
 import com.microsoft.azure.serverless.functions.*;
 
